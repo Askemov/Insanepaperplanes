@@ -1,0 +1,72 @@
+CChtml{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    background-color: #DFDFDF;
+    font: 1em arial, sans-serif;
+}
+
+header, section, footer{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+header, article, footer{
+    border: 1px solid #994005;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+}
+
+#header{
+    margin: 0px;
+    background-color: #DFDFDF;
+    font: 2em "Comic Sans MS", cursive, sans-serif;
+}
+
+section{
+    margin: 6% auto 10px auto;
+}
+
+article.topic{
+    background-color: #ECECEC;
+    margin: 8px 0px 8px 0px;
+    font-size: 1.17em;
+}
+
+div.img_frame{
+    margin: 1.5%;
+}
+
+img.paperplaneimg{
+    padding: 0% 20% 0% 20%;
+    height: 60%;
+    width: 60%;
+}
+
+p.img_desc{
+    width: 60%;
+    padding: 3px 0px 3px 0px;
+    margin: 0% 20% 0% 20%;
+    text-align: center;
+    font-style: italic;
+    color: #505050;
+}
+
+footer{
+    margin: 0% 10% 0% 10%;
+    background-color: #1A1A1A;
+    color: #808080;
+    text-align: center;
+    border-style: solid solid none;
+    border-color: #994005;
+    border-width: 1px;
+}
